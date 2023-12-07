@@ -1,0 +1,36 @@
+.yellow {
+	background-color: yellow;
+}
+
+.red {
+	background-color: rgb(255, 76, 76);
+}
+
+.blue {
+	background-color: blue;
+}
+
+.purple {
+	background-color: plum;
+}
+
+.lightblue {
+	background-color: lightblue;
+}
+
+.myButtons,
+#formID {
+	zoom: 150%;
+}
+
+.bottom {
+	border: 5px solid blue;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 200px;
+	margin: 20px 0 100px 0;
+}
+
+

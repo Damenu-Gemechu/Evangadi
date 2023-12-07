@@ -1,0 +1,187 @@
+*
+{
+padding:0;
+margin: 0;
+}
+
+#hed{
+    background-color: #41447a;
+    text-align: center;
+    color: aliceblue;
+    height: 140px;
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+    border: 3px solid rgb(229, 159, 7);
+    
+}
+#hed img{
+    width: 80px;
+    margin-left: 0px;
+}
+.container button{
+    
+    height: 30px;
+    width: 80px;
+    font-size: 14px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font-weight: inherit;
+  
+    border: none;
+    transition: .5se;
+    border-radius: 10px;
+}
+ #media, #pubtype, #servicetype,#sizetype{
+    background-color:rgb(239, 238, 238);
+    width:300px;
+    height: 40px;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 20px;
+    border: 2px solid white;
+    font-family:cursive;
+    
+}
+#initialpr, #initialprice, #urgent,
+#credit, #copy, #TotalExcVat, #vat, #total{
+    background-color: rgb(239, 238, 238);
+    width:200px;
+    height: 35px;
+    font-weight: bolder;
+    border-radius: 20px;
+    border: 2px solid white;
+    font-family:cursive;
+    
+}
+#sizeMultiply1 ,#copymultiply1{
+    background-color:rgb(239, 238, 238);
+    width: 55px;
+    border: 0.5px solid white;
+    border-radius: 20px;
+    font-family:cursive;
+    
+}
+#form{
+    background-color: rgba(157, 126, 126, 0.639);
+    border-radius: 30px;
+    border: 3px solid rgb(229, 159, 7);
+}
+#col1,#col2,#col3{
+    height: 550px;
+    border: 0.5px solid white;
+    border-radius: 30px;
+}
+#c1{
+
+    color:rgb(5, 22, 69) ;
+    font-weight: bold;
+    border: 3px solid white;
+  
+}
+#col3{
+    height: 550px;
+    background-color: rgba(177, 167, 167, 0.639);
+    border-radius: 30px;
+    border: 2px solid white;
+    font-size: 15px;
+    color:rgb(5, 22, 69) ;
+}
+#pr{
+    font-size: 25px;
+    color: red;
+    visibility: hidden;
+}
+#sizebtn, #copybtn{
+    background-color: rgb(239, 238, 238);
+    border-radius: 30px;
+    border:none;
+    color: rgb(235, 154, 13);
+    /*height: 20px;*/
+    width: 30px;
+    font-size: 35px;
+    
+}
+#copybtn:hover{
+    background-color: rgb(235, 154, 13);
+    border-radius: 30px;
+    border:none;
+    color:rgb(9, 53, 174) ;
+}
+#sizebtn:hover{
+    background-color: rgb(235, 154, 13);
+    border-radius: 30px;
+    border:none;
+    color:rgb(9, 53, 174) ;
+}
+#custname, #phoneNo, #registerD, #pubD, #ctinNo{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    font-size: large;
+    font-family:cursive;
+}
+#tablehead1{
+    background-color: rgb(20, 123, 171);
+    color: white;
+}
+#tablehead2{
+    background-color: rgb(20, 123, 171);
+    color: whitesmoke;
+}
+#search1{
+    width: 400px;
+    border:none;
+    border-radius: 10px;
+    font-size: large;
+}
+#search{
+    
+    border:none;
+    border-radius: 10px;
+    font-size: large;
+    background-color: rgba(5, 135, 242, 0.338);
+}
+#insert{
+    width: 200px;
+    background-color: rgb(25, 39, 66);
+    color: rgb(247, 247, 246);
+}
+
+#insert:hover{
+    height: 40px;
+    background-color: rgb(14, 81, 236);
+    color: chartreuse;
+}
+#search:hover{
+    width: 100px;
+    background-color: rgb(232, 229, 221);
+    border-radius: 70px;
+    text-align: center;
+    
+}
+#logout{
+    width: 100px;
+    background-color: rgb(212, 220, 242);
+    color: rgb(240, 62, 18);
+}
+#logout:hover{
+    height: 40px;
+    background-color: rgb(29, 27, 24);
+    color: rgb(222, 217, 214);
+}
+#showdata{
+    width: 200px;
+    border:none;
+    background-color: rgb(239, 238, 238);
+    color: rgb(12, 134, 221);
+}
+#showdata:hover{
+    background-color: rgb(151, 158, 182);
+    color: rgb(249, 249, 249);
+    
+}
+#orderno{
+    background-color:rgb(239, 238, 238);
+    border:none;
+    font-weight: bold;
+}

@@ -1,0 +1,176 @@
+*
+{
+padding:0;
+margin: 0;
+}
+
+#hed{
+    background-color: rgb(56, 56, 155);
+    text-align: center;
+    color: aliceblue;
+}
+
+#hed img{
+    width: 90px;
+    margin-left: 0px;
+}
+#bodty{
+    background-color: rgb(38, 38, 129);
+    text-align: center;
+    color: rgb(12, 55, 93);
+}
+.container button{
+    
+    height: 30px;
+    width: 80px;
+    font-size: 14px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font-weight: inherit;
+  
+    border: none;
+    transition: .5se;
+    border-radius: 10px;
+}
+ #media, #pubtype, #servicetype,#sizetype{
+    background-color: rgb(151, 153, 197);
+    width:300px;
+    height: 35px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+}
+#initialpr, #initialprice, #urgent,
+#credit, #copy, #TotalExcVat, #vat, #total{
+    background-color: rgb(247, 244, 241);
+
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+}
+#sizeMultiply1 ,#copymultiply1{
+    background-color: rgb(134, 136, 195);
+    width: 55px;
+    border:none;
+    border-radius: 30px;
+    
+}
+#form{
+    background-color: rgb(166, 168, 204);
+    border-radius: 30px;
+}
+#col1,#col2,#col3{
+    height: 670px;
+   /* border: 1px solid rgba(183, 34, 34, 0.984);*/
+    border-radius: 30px;
+  
+}
+#c1{
+    
+    color:rgb(5, 22, 69) ;
+    font-weight: bold;
+  
+}
+#col3{
+    height: 670px;
+    background-color:rgb(166, 168, 204);
+    border-radius: 30px;
+    /*border: 1px solid rgba(183, 34, 34, 0.984);*/
+    font-size: 15px;
+}
+#sizebtn, #copybtn{
+    background-color:  rgb(134, 136, 195);
+    border-radius: 30px;
+    border:none;
+    color: rgb(110, 17, 17);
+    height: 20px;
+    
+}
+#sizebtn, #copybtn :hover{
+   
+    border-radius: 30px;
+    border:none;
+}
+#custname, #phoneNo, #registerD, #pubD, #ctinNo{
+    background-color: rgb(247, 244, 241);
+    border-radius: 20px;
+    font-size: large;
+}
+#tablehead1{
+    background-color: rgb(20, 123, 171);
+    color: white;
+}
+#tablehead2{
+    background-color: rgb(30, 42, 119);
+    color: whitesmoke;
+}
+#editcopymultiply, #editsizemultiply {
+    background-color:  rgb(247, 244, 241);
+    width: 55px;
+    border:none;
+    border-radius: 20px;
+    
+}
+#editsize, #editmedia, #editpubtype, #editservicetype{
+    background-color:  rgb(247, 244, 241);
+    border:none;
+    border-radius: 20px;
+}
+#search1{
+    width: 400px;
+    border:none;
+    border-radius: 10px;
+    font-size: large;
+}
+#search{
+    text-align: center;
+    border:none;
+    border-radius: 10px;
+    font-size: large;
+    background-color: rgba(5, 135, 242, 0.338);
+}
+#update{
+    width: 70px;
+    background-color: rgb(34, 24, 176);
+    border-radius: 70px;
+    text-align: center;
+    
+}
+#Exit{
+    width: 70px;
+    background-color: rgb(8, 9, 9);
+    border-radius: 70px;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+#search:hover{
+    width: 100px;
+    background-color: rgb(232, 229, 221);
+    border-radius: 70px;
+    text-align: center;
+    
+}
+#Exit:hover{
+    width: 100px;
+    background-color: rgb(231, 168, 10);
+    border-radius: 70px;
+    text-align: center;
+    
+}
+#update:hover{
+    width: 100px;
+    background-color: rgb(10, 195, 241);
+    border-radius: 70px;
+    text-align: center;
+    
+}
+#delete:hover{
+    width: 100px;
+    background-color: rgb(232, 8, 8);
+    border-radius: 70px;
+    text-align: center;
+    
+}

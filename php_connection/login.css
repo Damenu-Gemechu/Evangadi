@@ -1,0 +1,37 @@
+#body{
+    background: rgb(218, 135, 11);
+}
+#form{
+    background-color: rgb(223, 222, 232);
+    width: 40%;
+    margin: 120px auto;
+    padding: 50px;
+    box-shadow: 10px 10px 5px rgb(17, 17, 17);
+    border-radius: 6px;
+  
+}
+#form h3{
+   
+     color: rgb(34, 34, 238);
+     text-align: center;
+    /* box-shadow: 10px 10px 5px 5px rgb(100, 47, 48, 48);*/
+     font-size: 30px;
+    /* border: 1px solid rgb(53, 37, 108);*/
+     
+ 
+ }
+#loginbtn{
+    color: white;
+    width: 120px;
+    background-color: rgb(6, 55, 146);
+    padding: 10px;
+    font-size:large ;
+    border-radius: 50%;
+    margin-left: 40%;
+}
+@media screen and (max-width:700px){
+    #form{
+        width: 65%;
+        padding: 40px;
+    }
+}

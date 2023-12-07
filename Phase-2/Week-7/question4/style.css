@@ -1,0 +1,15 @@
+body{
+    padding: 0;
+/* background-color: brown; */
+
+
+}
+
+#registrationForm{
+    height: auto;
+    width:50%;
+    background-color: antiquewhite;
+    color: aqua;
+    border: 1px solid blue;
+
+}

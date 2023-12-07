@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>DOM</title>
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+
+	<body>
+		<h1>DOM (Document Object Model)</h1>
+
+		<!-- my comment -->
+
+		<div id="numbersList" class="test" type="bob">
+			<h1 id="one" class="red">Apple</h1>
+			<h1 id="two" class="red">Amazon</h1>
+			<h1 id="three" class="red">Tesla</h1>
+			<h1 id="four" class="red">Microsoft <b>Windows</b></h1>
+		</div>
+
+		<p><b>Thank you</b> for visiting my web page!</p>
+		<br />
+		<hr />
+		<br />
+
+		<button id="btn-1" onclick="changeColor()" ondblclick="removeColor()">Button-1</button>
+
+		<br />
+		<br />
+
+		<button id="btn-2" >Button-2</button>
+		<br />
+		<br />
+		<button id="btn-3">Button-3</button>
+		<br />
+		<br />
+		<button id="btn-4">Button-4</button>
+
+		<br />
+		<br />
+
+		<a href="http://evangadi.com">Go to evangadi</a>
+
+		<h3>My form</h3>
+
+		<form id="formID">
+			<input type="text" placeholder="first name" /><br /><br />
+			<input type="text" placeholder="last name" /><br /><br />
+			<button type="submit" id="buttonId">Submit</button>
+			<br />
+			<br />
+			<h2 id="result"></h2>
+			<br />
+			<br />
+		</form>
+
+		<section>
+			<h2 id="eventP">Event Propagation Example</h2>
+
+			<div id="div1">
+				Hi this Div-1!
+
+				<div id="div2">Hello from Div-2</div>
+			</div>
+		</section>
+
+		<script src="./JS/script.js"></script>
+	</body>
+</html>

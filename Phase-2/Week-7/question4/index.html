@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Example</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <style>
+      .error {
+        color: red;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Registration Form</h2>
+
+    <form id="registrationForm">
+      <div>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" />
+      </div>
+
+      <div>
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" />
+      </div>
+
+      <div>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" />
+      </div>
+
+      <div>
+        <input type="submit" id="audit_submit" value="Submit" />
+      </div>
+    </form>
+
+    <div id="errorMessage" class="error" style="display: none"></div>
+    <div id="confirmationMessage" style="display: none">
+      <h3>Registration Successful!</h3>
+      <p>First Name: <span id="displayFirstName"></span></p>
+      <p>Last Name: <span id="displayLastName"></span></p>
+      <p>Email: <span id="displayEmail"></span></p>
+    </div>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="jquery.js"></script>
+  </body>
+</html>

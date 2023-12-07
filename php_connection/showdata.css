@@ -1,0 +1,142 @@
+*
+{
+padding:0;
+margin: 0;
+}
+
+#hed{
+    background-color: #f4a329;
+    text-align: center;
+    color: aliceblue;
+}
+#hed img{
+    width: 90px;
+    margin-left: 0px;
+}
+.container button{
+    
+    height: 30px;
+    width: 80px;
+    font-size: 14px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font-weight: inherit;
+  
+    border: none;
+    transition: .5se;
+    border-radius: 10px;
+}
+ #media, #pubtype, #servicetype,#sizetype{
+    background-color:rgb(242, 212, 183);
+    width:300px;
+    height: 35px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+}
+#initialpr, #initialprice, #urgent,
+#credit, #copy, #TotalExcVat, #vat, #total{
+    background-color: rgb(247, 244, 241);
+    width:300px;
+    height: 35px;
+    font-weight: large;
+    border-radius: 20px;
+    border: none;
+}
+#sizeMultiply1 ,#copymultiply1{
+    background-color:rgb(229, 190, 150);
+    width: 55px;
+    border:none;
+    border-radius: 20px;
+    
+}
+#cont{
+    background-color: rgb(220, 205, 192);
+}
+#form{
+    background-color: rgb(229, 190, 150);
+    border-radius: 30px;
+}
+#col1,#col2,#col3{
+    height: 600px;
+  
+}
+#c1{
+
+    color:rgb(5, 22, 69) ;
+    font-weight: bold;
+  
+}
+#col3{
+    height: 670px;
+    background-color: rgb(242, 196, 137);
+    border-radius: 30px;
+    border: 1px solid rgba(183, 34, 34, 0.984);
+    font-size: 15px;
+    color:rgb(5, 22, 69) ;
+}
+#sizebtn, #copybtn{
+    background-color: rgb(229, 190, 150);
+    border-radius: 30px;
+    border:none;
+    color: rgb(110, 17, 17);
+    height: 20px;
+    
+}
+#sizebtn, #copybtn :hover{
+   
+    border-radius: 30px;
+    border:none;
+}
+#custname, #phoneNo, #registerD, #pubD, #ctinNo{
+    background-color: rgb(247, 244, 241);
+    border-radius: 20px;
+    font-size: large;
+}
+#tablehead1{
+    background-color: rgb(9, 50, 152);
+    color: white;
+}
+#tablehead2{ 
+    background-color: #f18a36;
+    color: whitesmoke;
+}
+#search1{
+   
+    width: 400px;
+    border:none;
+    border-radius: 30px;
+    font-size: large;
+    text-align: center;
+}
+#NewCustomer{
+    background-color: rgb(10, 89, 137);
+    border:none;
+    border-radius: 100%;
+    font-size: large;
+    text-align: center;
+}
+#search{
+    background-color: rgb(80, 16, 163);
+    border:none;
+    border-radius: 100%;
+    font-size: large;
+    text-align: center;
+    
+}
+#search:hover{
+    
+    background-color: rgb(8, 113, 218);
+    color: rgb(240, 187, 12);
+}
+#NewCustomer:hover{
+    background-color: rgb(218, 88, 8);
+    color: chartreuse;
+}
+#showdata{
+    width: 200px;
+    border:none;
+    background-color: rgb(229, 190, 150);
+}
+
