@@ -1,5 +1,4 @@
 pwd
-
 echo "Hello, I am about to use script to create folder and files."
 mkdir evangadi-students
 cd evangadi-students
@@ -11,3 +10,4 @@ touch index.html
 mkdir css
 touch style.css
 echo "Thanks, I'm Done!"
+

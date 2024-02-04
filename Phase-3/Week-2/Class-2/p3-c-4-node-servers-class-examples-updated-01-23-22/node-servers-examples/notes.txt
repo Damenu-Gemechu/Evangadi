@@ -1,0 +1,378 @@
+   REVISION ON NODE MODULES:
+
+    MODULES:
+     - Are essentially reusable pieces of code that 
+       encapsulate specific functionality.
+     - Play a crucial role in organizing and 
+       modularizing code.
+
+    HOW?  -> They contribute to code:-
+      * maintainability
+      * reusability and 
+      * separation of concerns.
+
+    TYPES: -
+      -> Core modules
+      -> Local modules
+      -> Third-party modules
+
+    1) LOCAL MODULES: 
+       - are custom modules created by developers within
+         a Node.js application.
+       - Used to encapsulate and abstract specific 
+         functionality that can be reused across different 
+         parts of the application. 
+       - Are typically stored in separate files with a .js
+         extension and can be organized into directories for 
+         better code management.
+       - To use, you need to export the desired functionality 
+         using module.exports and then require it in other parts 
+         of your codebase.
+
+     In utils.js:
+      // Exporting a function
+       exports. myFunction = () => {
+       // Functionality goes here
+       };
+
+     In another file:
+      const myModule = require('./utils');
+      myModule.myFunction(); // Call the exported function
+      console.log(myModule.myVariable); // Access the exported variable
+
+    2) THIRD-PARTY MODULES: 
+        - Are created by developers outside of the 
+          Node.js core team.
+        - Are published on package registries like npm.
+        - Provide additional functionality that extends 
+          the capabilities of Node.js.
+        - Cover a wide range of use cases, including web 
+          frameworks (Express.js), authentication libraries 
+          (Passport.js), database connectors (Mongoose), 
+          and many more. 
+        - To use, you first need to install it using npm 
+          or yarn, and then require it in your code.
+
+         Installing and using a 
+         third-party module:
+
+        -> node npm install express
+ 
+         const express = require('express');
+         const app = express ();
+
+        // Express application setup
+        // ...
+
+         app.listen(3000, () => {
+         console.log('Server started on port 3000');
+         });
+
+    3)	CORE MODULES:
+
+      - Set of built-in modules that provide essential 
+        functionality. 
+      -	Can be readily accessed without the need for 
+        additional installation or configuration.
+    
+       - Covers: 
+         - fs: Handle file and directory/folder system. 
+           (creating a folder, Accessing and open a file, 
+           editing a file, copying a file, removing a file 
+           or a directory)
+
+         - os: About computer’s operating system.
+
+         - path: It includes methods to deal with file paths. 
+           Examples: Identify the path of a specific file or 
+           folder, identify the path to the root directory and 
+           identify the extension of a file 
+
+         - http: It creates an HTTP server in Node.js. 
+           Examples: Ability to receive and handle HTTP request 
+           and managing connections  
+
+         - Events: used to own and trigger events. 
+           Examples: Creating, firing and listening for 
+           your own events
+
+     -	To use, you simply using the require keyword
+         Example: - 
+         const fs = require('fs') //imports the file system module.
+         const os = require(‘os’)
+         const path = require(‘path’)
+         const http = require(‘http’)
+         const EventEmitter = require(‘events’)
+
+BUILDING WEB SERVER
+
+Building HTTP web server using NodeJS: => HTTP and EXPRESS.JS
+
+Web server: 
+  -	computer that has an HTTP server software 
+    installed on it that helps deliver/handle HTTP 
+    requests from client, like your browser, and 
+    provided HTTP responses like an HTML page 
+    from a remote server computer.
+  -	Or common subset of an application server, 
+    that delivers static web content 
+    (Example: HTML pages, files, images, video) 
+    in response to HTTP requests from a web browser.
+
+Application server:
+  - It can deliver web content too, just like any 
+    web server. However, its primary job is to enable 
+    interaction between browsers and server-side 
+    application code to generate and deliver dynamic content.
+  -	But in current practice, most web servers support 
+    plug-ins for scripting languages (e.g., PHP) that 
+    enable the web server to generate dynamic content and 
+    increasing number of application servers incorporate 
+    web server capabilities and use HTTP as their primary 
+    protocol for interfacing with web servers.
+
+File server: 
+   - The computer that stores the files so that other 
+     computers on the same network can access them.
+
+Building HTTP web server using Express module: 
+  serving our static Apple website with Express
+
+ Express framework:
+  - It is an open-source server-side framework that 
+    written in JavaScript
+  - Used to build HTTP servers and set up connections. 
+	 - Using this connection, data sending and receiving 
+       can be done.
+  - Express is built on top of Node. Js
+  - built-in HTTP module and is available through the npm 
+  - Express is a framework, not just a module. 
+
+Framework vs library vs package vs module:
+
+ Module: 
+  -	set of methods or functions (smallest piece of software) 
+    ready to be used somewhere else
+  -	provides a single piece of functionality 
+
+ Package: 
+  - Is a collection of modules of the same functional purpose.  
+   Eg. Any package from NPM
+
+ Library: 
+  - Is a collection of packages. Eg. Bootstrap
+
+ Framework: 
+  - Set of libraries.
+  - Framework does not just offer functionalities, but 
+    it also provides an architecture for the development work. 
+    In other words, you do not include a framework, but you 
+    integrate your code into it.
+  - framework forces its coding style on to the developer/user
+    or it is in charge of the flow. It provides some places for 
+    you to plug in your code, but it calls the code you plugged 
+    in as needed. Eg Express package 
+
+
+ Module          ->   Package  ->    Library        ->               Framework
+  Set of methods/fn    Set of modules          set of packages       set of Libraries
+
+
+Why Express package is better than the HTTP module 
+ to create web servers?
+
+ -	HTTP module is an in-build module which is pre-installed 
+    along with NodeJS
+ -	Express is installed explicitly using npm command: 
+    npm install express.
+ -	Express is a framework as a whole, But HTTP is not a 
+    framework as a whole rather it is just a module.
+ -	Express provide express.static function for static 
+    page hosting , HTTP does not
+ -	HTTP module provides various tools (functions) to do 
+    things for networking like making a server, client, etc. 
+
+ -	Express took the functionality of the HTTP module and 
+    added additional functionalities for faster and efficient web development.
+
+
+
+
+MORE ABOUT EXPRESS.JS FRAMEWORK ....
+  Express.js is a popular web application framework for Node.js 
+  that simplifies the process of building robust and scalable 
+  back-end applications. Below, I will explain how to use 
+  Express.js in Node.js and provide examples to illustrate its usage.
+
+1. Install Express.js:
+   To begin, ensure that you have Node.js installed on your system. 
+   Then, open your terminal or command prompt and navigate to your 
+   project directory. Use the following command to install Express.js 
+   as a dependency for your project:
+
+ npm install express
+
+2. Setting up an Express.js Server:
+   In your project directory, create a new file (e.g., server.js) 
+   and require the Express.js module at the top:
+
+   const express = require('express');
+   Next, create an instance of the Express application:
+   const app = express();
+
+3. Basic Routing:
+   Express.js allows you to define routes for different 
+   URLs and HTTP methods. For example, you can create a 
+   route to handle GET requests to the root URL ("/") 
+   with a response:
+
+   app.get('/', (req, res) => {
+   res.send('Hello, World!');
+   });
+
+4. Route Parameters:
+   Express.js enables you to define routes with parameters, 
+   allowing you to handle dynamic data. For instance, to 
+   handle requests like /users/123, you can define a 
+   route with a parameter:
+
+   app.get('/users/:id', (req, res) => {
+   const userId = req.params.id;
+   res.send(`User ID: ${userId}`);
+   });
+
+5. Middleware:
+   Express.js middleware functions are functions that have 
+   access to the request and response objects, enabling 
+   additional processing before sending a response. For 
+   example, you can create a custom middleware function 
+   that logs incoming requests:
+
+   app.use((req, res, next) => {
+   console.log(`Incoming request: ${req.method} ${req.url}`);
+   next();
+   });
+
+6. Serving Static Files:
+   Express.js allows you to serve static files, such as HTML, CSS, 
+   and client-side JavaScript. To serve a directory named "public" 
+   in your project directory, use the following code:
+
+   app.use(express.static('public'));
+   Now, you can place your static files (e.g., HTML, CSS, images) in 
+   the "public" directory, and Express.js will serve them.
+
+7. Error Handling:
+   To handle errors in Express.js, you can define an error-handling 
+   middleware function with four parameters. For example:
+
+   app.use((err, req, res, next) => {
+   console.error(err);
+   res.status(500).send('Internal Server Error');
+   });
+
+8. Running the Express.js Server:
+
+   Finally, you can start the Express.js server by listening on a 
+   specific port. For instance, to listen on port 3000:
+
+   app.listen(3000, () => {
+   console.log('Server is running on port 3000');
+   });
+
+   These are just some of the basics of using Express.js in the 
+   back-end with Node.js. Express.js offers many more features and 
+   functionalities, such as routing middleware, template engines, 
+   and database integration. You can explore the Express.js 
+   documentation (https://expressjs.com/) for more in-depth 
+   information and examples on these topics.
+
+   Expressjs (https://expressjs.com/)
+   Express - Node.js web application framework
+
+Step 1: Creating a directory for our project and make that
+        our working directory.
+
+       $ mkdir DG
+       cd DG
+
+Step 2: Using npm init command to create a package.json file 
+         for our project.
+
+       $ npm init
+
+       This command describes all the dependencies of our project. 
+       The file will be updated when adding further Installing 
+       Express
+
+Step 3: Now in your gfg(name of your folder) folder type 
+         the following command line:
+
+         $ npm install express --save
+
+         
+Exmaple:
+   // 1: Serving simple message with Express
+   //Import express Module =>require express
+   //  const express = require("express");
+
+    // Lets now create our Server Object
+    // We used createServer() when we used http module
+    // That is what the main express() method does for us
+    //  const app = express();
+
+    // The app object now has access to all of the methods 
+   defined in the express module
+   // One of the methods is the listen() method
+    // This is what makes it listen to the port
+
+     app.listen(3000, (err) => {
+      if (err) {
+        console.log("Error found" + err);
+      }
+      console.log("Listening to port 3000");
+    });
+
+   // The next thing we need to do is set up routes
+    // Home page route
+    // Returning "Hello Express"
+
+     app.get("/", (req, res) => {
+       console.log("Request Received!");
+       // It determines and includes the content header for us
+     // It also includes all the other headers
+      // Like status code, etag etc
+       // We had to do this manually when we used http
+     });
+
+    // 2: Serving static page using Express
+    const express = require("express");
+
+   // Lets now create our Server Object
+    const app = express();
+
+    app.listen(3000, (err) => {
+      if (err) {
+       console.log("Error found" + err);
+      }
+     console.log("Listening to port 3000");
+    });
+
+    // All we have to do in here is use the middleware 
+   function and provide the location where all the static 
+   files are located. Express searches the file inside the 
+   provided directory and serves the requested file
+    app.use(express.static("apple"));
+
+
+   //3 PuppyLovers web site
+
+    const express = require("express");
+    const app = express();
+    //serving static site
+    app.use(express.static("PuppyLoversResponsiveMobileFirst"));
+    const PORT = 2020;
+    app.listen(PORT, (err)=>{
+    if (err) console.log(err);console.log('Server running on http://localhost:${PORT}');
+
+    });

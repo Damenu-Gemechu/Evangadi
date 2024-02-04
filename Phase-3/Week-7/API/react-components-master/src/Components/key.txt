@@ -1,0 +1,361 @@
+key=AIzaSyCasOsE1HcBoIOCkE98eWnFHvb_XT7XOJI
+
+youtube channel="id": "UCE_M8A5yxnLfW0KghEeajjw"
+
+  'https://youtube.googleapis.com/youtube/v3/channels?part=id&forUsername=apple&key=AIzaSyCasOsE1HcBoIOCkE98eWnFHvb_XT7XOJI' \
+
+  'https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCE_M8A5yxnLfW0KghEeajjw&maxResults=10&order=date&key=AIzaSyCasOsE1HcBoIOCkE98eWnFHvb_XT7XOJI' \
+
+ 
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "an7pSCfuh1AVoWfZmgRpv4NIJa8",
+  "nextPageToken": "CAoQAA",
+  "regionCode": "HK",
+  "pageInfo": {
+    "totalResults": 208,
+    "resultsPerPage": 10
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "s6lcImGTFyINrMXLU6xsIS54wbI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "aqTIB_q40bo"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-09T01:00:38Z",
+        "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+        "title": "Get Ready | Apple Vision Pro",
+        "description": "Get ready for Apple Vision Pro. Coming February 2. Learn More: https://apple.co/AppleVisionPro Audio Descriptions: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/aqTIB_q40bo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/aqTIB_q40bo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/aqTIB_q40bo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Apple",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-09T01:00:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "aWTjS5QU7x2ryVXlEed_9obI_Kk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "07cKD8GK__c"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-24T17:49:42Z",
+        "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+        "title": "iPhone 15 Plus | Miss You | Apple",
+        "description": "Big screen. Big battery life. iPhone 15 Plus is here. Dynamic Island. New 48MP Main camera. 2x Telephoto. Next-generation ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/07cKD8GK__c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/07cKD8GK__c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/07cKD8GK__c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Apple",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-24T17:49:42Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "HUjQ5rgR29iV-o6zhSeALsNqn_s",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "OFP0c6zBVHs"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-24T17:00:20Z",
+        "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+        "title": "iPhone 15 Plus | Miss You | Apple #Shorts",
+        "description": "Big screen. Big battery life. iPhone 15 Plus is here. Dynamic Island. New 48MP Main camera. 2x Telephoto. Next-generation ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OFP0c6zBVHs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OFP0c6zBVHs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OFP0c6zBVHs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Apple",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-24T17:00:20Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_R2YDP1NHT1em9svOjNz2ya2AJs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "92LTVxAJcgk"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-20T17:00:42Z",
+        "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+        "title": "How to set up Apple Pay. #Shorts",
+        "description": "Learn more on http://apple.com/apple-pay Audio descriptions: https://youtube.com/shorts/VIEOaJxVE-4 #ApplePay.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/92LTVxAJcgk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/92LTVxAJcgk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/92LTVxAJcgk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Apple",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-20T17:00:42Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "mjMoDadZnt7b57jSfunQPD2b_7U",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "75UzcvG01a4"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-20T17:00:28Z",
+        "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+        "title": "How to know where you can use Apple Pay. #Shorts",
+        "description": "Learn more on http://apple.com/apple-pay Audio descriptions: https://youtube.com/shorts/ZnLRH9-2Jqg #ApplePay.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/75UzcvG01a4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/75UzcvG01a4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/75UzcvG01a4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Apple",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-20T17:00:28Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "WBP2TTqVd-z0Q1Xm4KtjykyR8as",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "EKB8_OeWGDo"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-20T17:00:15Z",
+        "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+        "title": "How to pay in store with Apple Pay using iPhone. #Shorts",
+        "description": "Learn more on http://apple.com/apple-pay Audio Descriptions: https://youtube.com/shorts/5MuTZ-l8V7U #ApplePay.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EKB8_OeWGDo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EKB8_OeWGDo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EKB8_OeWGDo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Apple",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-20T17:00:15Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "O6c2PZS4PIJ4ZFsSBRC2rs50C1I",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ei0WDdT4-6A"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-01T22:30:38Z",
+        "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+        "title": "iPhone 15 | Camera | Album Cover | Apple",
+        "description": "On iPhone 15 you can turn your photos into portraits after you take the shot. And for even more control, you can shift the focus ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ei0WDdT4-6A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ei0WDdT4-6A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ei0WDdT4-6A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Apple",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-01T22:30:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "xHmZv6cj9m5dKHVM1_DpqFkXiqk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ra9I0HScTDw"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-30T14:00:07Z",
+        "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+        "title": "Personal Voice on iPhone | The Lost Voice | Apple",
+        "description": "Personal Voice samples and recreates your voice, so if you ever lose the ability to speak, you can continue to communicate ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ra9I0HScTDw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ra9I0HScTDw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ra9I0HScTDw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Apple",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-30T14:00:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fpx_otGBBwuxc2fyE-ildDq4o-M",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "HyrrnLnfnQ4"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-28T17:44:24Z",
+        "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+        "title": "Study With Me video starring Storm Reid. Tap the link to watch full video. #Shorts",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HyrrnLnfnQ4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HyrrnLnfnQ4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HyrrnLnfnQ4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Apple",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-28T17:44:24Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "1RMT4djRrkGvde-qnvcZnNgPd-A",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "zDVQ3he7lVA"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-21T17:00:09Z",
+        "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+        "title": "Fuzzy Feelings: Behind the Scenes | Apple",
+        "description": "Shrunken snowplow. Minuscule suit buttons. Tiny irons. A whole lot of heart. Here's how iPhone 15 Pro Max captured every ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zDVQ3he7lVA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zDVQ3he7lVA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zDVQ3he7lVA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Apple",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-21T17:00:09Z"
+      }
+    }
+  ]
+}
